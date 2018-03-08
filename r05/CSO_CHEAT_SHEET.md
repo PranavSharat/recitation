@@ -1,7 +1,7 @@
 # Tutorial 4
 I, PranavSharat, will read the document and make sure I understand the course logistics and GIT instructions. In the future, I'll try to fix these issues with the instructions specified below. If I have any further question I'll ask on Piazza.
 
-I can access this document through the [link](https://github.com/nyu-cso18spring/cso18spring-recitation-nyu-student-test/blob/master/r05/CSO_CHEAT_SHEET.md)
+I can access this document through the [link](https://github.com/nyu-cso18spring/cso18spring-recitation-PranavSharat/blob/master/r05/CSO_CHEAT_SHEET.md)
 
 ## Logistics
 1. For all future labs and recitations, the scores will be released through NYU Classes. CSO graders will post on Piazza when the scores are ready. 
@@ -27,8 +27,8 @@ To prevent the repositories from corruption, I'll type the command `sync` in the
 2. I'll never modify files through https://github.com. I'll use the website only to check my updates.
 
 ### Initialize recitation repository
-1. `git clone https://github.com/nyu-cso18spring/cso18spring-recitation-nyu-student-test`
-2. `cd cso18spring-recitation-nyu-student-test`
+1. `git clone https://github.com/nyu-cso18spring/cso18spring-recitation-PranavSharat`
+2. `cd cso18spring-recitation-PranavSharat
 3. `git remote add upstream https://github.com/nyu-cso18spring/recitation`
 4. `git pull upstream master`
 5. `git remote -v`  
@@ -36,15 +36,15 @@ To prevent the repositories from corruption, I'll type the command `sync` in the
 The output should be  
 
 ```
-origin  https://github.com/nyu-cso18spring/cso18spring-recitation-nyu-student-test (fetch)
-origin  https://github.com/nyu-cso18spring/cso18spring-recitation-nyu-student-test (push)
+origin  https://github.com/nyu-cso18spring/cso18spring-recitation-PranavSharat (fetch)
+origin  https://github.com/nyu-cso18spring/cso18spring-recitation-PranavSharat (push)
 upstream        https://github.com/nyu-cso18spring/recitation (fetch)
 upstream        https://github.com/nyu-cso18spring/recitation (push)
 ```
 
 ### Initialize labs repository
-1. `git clone https://github.com/nyu-cso18spring/cso18spring-labs-nyu-student-test`
-2. `cd cso18spring-labs-nyu-student-test`
+1. `git clone https://github.com/nyu-cso18spring/cso18spring-labs-PranavSharat`
+2. `cd cso18spring-labs-PranavSharat`
 3. `git remote add upstream https://github.com/nyu-cso18spring/cso18-labs`
 4. `git pull upstream master`
 5. `git remote -v`  
@@ -52,8 +52,8 @@ upstream        https://github.com/nyu-cso18spring/recitation (push)
 The output should be: 
 
 ```
-origin  https://github.com/nyu-cso18spring/cso18spring-labs-nyu-student-test (fetch)
-origin  https://github.com/nyu-cso18spring/cso18spring-labs-nyu-student-test (push)
+origin  https://github.com/nyu-cso18spring/cso18spring-labs-PranavSharat (fetch)
+origin  https://github.com/nyu-cso18spring/cso18spring-labs-PranavSharat (push)
 upstream        https://github.com/nyu-cso18spring/cso18-labs (fetch)
 upstream        https://github.com/nyu-cso18spring/cso18-labs (push)
 ```
@@ -61,16 +61,16 @@ upstream        https://github.com/nyu-cso18spring/cso18-labs (push)
 ### How to fix the recitation repository when it is corrupt?
 When performing any GIT command and getting a message like the figure, ![](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/corrupt.png) I'll do following instructions to fix the problem.
 
-1. I'll first backup the folder with the command `mv cso18spring-recitation-nyu-student-test cso18spring-recitation-nyu-student-test-backup`. I have to first switch to the folder which contains cso18spring-recitation-nyu-student-test before doing the command.
+1. I'll first backup the folder with the command `mv cso18spring-recitation-PranavSharat cso18spring-recitation-PranavSharat-backup`. I have to first switch to the folder which contains cso18spring-recitation-PranavSharat before doing the command.
 2. After backuping the folder, I'll do **Initialization recitation repository**(follow all the instructions in that section) described above.
-3. I'll copy the files I already modified in cso18spring-recitation-nyu-student-test-backup back to cso18spring-recitation-nyu-student-test. I can only copy modified C files (.c, .h) back to the newly initialized folder.
+3. I'll copy the files I already modified in cso18spring-recitation-PranavSharat-backup back to cso18spring-recitation-PranavSharat. I can only copy modified C files (.c, .h) back to the newly initialized folder.
 
 ### How to fix the labs repository if it is corrupted?
 When performing any GIT command and getting a message like the figure, ![](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/corrupt.png) I'll do following instructions to fix the problem.
 
-1. I'll first backup the folder with the command `mv cso18spring-labs-nyu-student-test cso18spring-labs-nyu-student-test-backup`. I have to first switch the folder which contains cso18spring-labs-nyu-student-test before doing the command.
+1. I'll first backup the folder with the command `mv cso18spring-labs-PranavSharat cso18spring-labs-PranavSharat-backup`. I have to first switch the folder which contains cso18spring-labs-PranavSharat before doing the command.
 2. After backuping the folder, I'll do **Initialization labs repository**(follow all the instructions in that section) described above.
-3. Copy the files I already modified in cso18spring-labs-nyu-student-test-backup back to cso18spring-labs-nyu-student-test. I can only copy modified C files (.c, .h) back to the newly initialized folder.
+3. Copy the files I already modified in cso18spring-labs-PranavSharat-backup back to cso18spring-labs-PranavSharat. I can only copy modified C files (.c, .h) back to the newly initialized folder.
 
 ### How to fix labs/recitation repository when there are conflicts?
 When performing any GIT command and I get a message like the figure, ![](https://github.com/nyu-cso18/cso18-recitation/blob/staff/r04/conflict.png) I'll do following instructions to fix the problem.
