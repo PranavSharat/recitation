@@ -1,5 +1,5 @@
 # Tutorial 4
-I, nyu-student-test, will read the document and make sure I understand the course logistics and GIT instructions. In the future, I'll try to fix these issues with the instructions specified below. If I have any further question I'll ask on Piazza.
+I, PranavSharat, will read the document and make sure I understand the course logistics and GIT instructions. In the future, I'll try to fix these issues with the instructions specified below. If I have any further question I'll ask on Piazza.
 
 I can access this document through the [link](https://github.com/nyu-cso18spring/cso18spring-recitation-nyu-student-test/blob/master/r05/CSO_CHEAT_SHEET.md)
 
@@ -7,12 +7,12 @@ I can access this document through the [link](https://github.com/nyu-cso18spring
 1. For all future labs and recitations, the scores will be released through NYU Classes. CSO graders will post on Piazza when the scores are ready. 
    * If I have any question about the score, I must contact CSO graders before the deadline specified in the post.
 2. The deadline is 11:59 PM on the due date for every lab and recitation. Any late submission will not be considered.
-   * For example, if I, nyu-student-test, submit at 0:06 AM for recitation, I realized that submission will be ignored.
+   * For example, if I, PranavSharat, submit at 0:06 AM for recitation, I realized that submission will be ignored.
    * Some students submitted the code 10 minutes late and got 0 for their recitation exercises.
 3. All the future recitation deadlines will be on Thursday nights instead of Wednesday (this recitation is due on Friday).
 4. I must follow all the instructions CSO graders and instructors post on Piazza, especially the pinned posts.
    * For example, CSO graders have posted how to use grace days for labs. In the future, any submission with a incorrect format will be ignored. 
-5. When doing labs, I have to always follow the instructions. I, nyu-student-test, won't change the output format. If I don't understand the output format, I'll ask on Piazza.
+5. When doing labs, I have to always follow the instructions. I, PranavSharat, won't change the output format. If I don't understand the output format, I'll ask on Piazza.
 6. When doing labs, I should only modify the files which the instructions ask us to modify.
 7. Plagiarism examples:
    * For game of life, I can look up how to read a file in C language on the Internet. But the logic of game of life must be entirely implemented by myself.
